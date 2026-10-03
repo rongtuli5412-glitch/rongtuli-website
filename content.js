@@ -1,0 +1,39 @@
+const RONGTULI_CONTENT={
+  "brand": "RONG-TULI",
+  "tagline": "Capture Your Moment",
+  "whatsapp": "8801701264756",
+  "call": "01642759236",
+  "location": "Noakhali, Bangladesh",
+  "portfolio": [
+    {
+      "image": "assets/uploads/portfolio-01.jpg",
+      "title": "Wedding Story",
+      "category": "Wedding"
+    },
+    {
+      "image": "assets/uploads/portfolio-02.jpg",
+      "title": "Bride Portrait",
+      "category": "Portrait"
+    },
+    {
+      "image": "assets/uploads/portfolio-03.jpg",
+      "title": "Groom Portrait",
+      "category": "Portrait"
+    },
+    {
+      "image": "assets/uploads/portfolio-04.jpg",
+      "title": "Cinematic Moment",
+      "category": "Cinematic"
+    },
+    {
+      "image": "assets/uploads/portfolio-05.jpg",
+      "title": "Reception",
+      "category": "Wedding"
+    },
+    {
+      "image": "assets/uploads/portfolio-06.jpg",
+      "title": "Event Story",
+      "category": "Events"
+    }
+  ]
+};

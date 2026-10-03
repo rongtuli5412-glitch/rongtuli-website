@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: site_content
+    label: Site Content
+    files:
+      - name: main
+        label: Main Website Content
+        file: content.json
+        format: json
+        fields:
+          - {label: Brand, name: brand, widget: string}
+          - {label: Tagline, name: tagline, widget: string}
+          - {label: WhatsApp, name: whatsapp, widget: string}
+          - {label: Call, name: call, widget: string}
+          - {label: Location, name: location, widget: string}
+          - label: Portfolio
+            name: portfolio
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: Category, name: category, widget: select, options: [Wedding, Portrait, Cinematic, Events]}
